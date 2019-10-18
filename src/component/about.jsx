@@ -50,10 +50,10 @@ export default class About extends React.Component {
 					<div className="col-12 col-lg-6 hidden">
 						<img
 							className={"img-fluid " + this.props.fadeIn}
-							src={myImage}
+							src="https://lh3.googleusercontent.com/lZnGPyCxXWQNBWMXmspRgFlzmt1Sz1QGwdwMXNoIdEuJ4c7ex2AJH6LYwgqtM7t9Wf2a0EzcHRSfR-5iZYFpjYX86IiEEEu94sCQN6lgsJHMIq0-RbWawUs8or8bSQ7HgKda8gdphruKx4Aq52rGizlU2dGlFet9mec3onm7Er092eqWAq_roZYDgKN4kFoh-VmtJH5DDJ77bZf9m7C88ZDTqKnHX-CXNEbKZ5hPp7PndFdwionArgsmZ3f2i_rrDIf72KNIjlAq3CCMO7-K1fMNAgadOQpJKx9u1OWLWDbSz9hgzJ7as2uUN3ls5_6pOjgY9vpwZrIyQehJlI1byH7kuBqKdJv6F2WR-CvR0hHMBzrPB3qgvtGXWM_jAzbDQDRUhWiwHdJ6fcWO_UeadeenwyXxgbIHG6dHiE7QoUgyHESkIdXY7oLuMxrqmSEMmwgXenleNflGBoqjnHcBQo6LvX0Ec_iRdDrXJDouSBLPGbIEhxIa91a0BJj0wOHJsGfFQKvuvZzwskQJjeXGm3nIbxp0RPclT97xTcUsmBTyss6usChc8ET7EN_ThwnPLz0ZBUvujnzEtvad09rqdqUDpywhj9cLooSKLhCQQZAkegCQxUTOArqY0Xdg90rHDw0v51zHk178wxdASgTQBr0xn-FaUHtwEERk1Eo6I2b4is-dftquPZ0=w476-h669-no"
 							alt=""
 							style={{
-								borderRadius: 50 + "%",
+								borderRadius:  45 +"%" +0 + "%",
 								height: 250 + "px",
 								width: 250 + "px"
 							}}
@@ -99,16 +99,7 @@ export default class About extends React.Component {
 								Javascript
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								PHP
-							</div>
-						</div>
+						
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-80-bar"
@@ -133,22 +124,13 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								SASS
+								Bootstrap
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								VanillaJS
-							</div>
-						</div>
+						
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-60-bar"

@@ -1,7 +1,7 @@
 import React from "react";
-import Vmarine from "../img/Vmarine.jpg";
-import aguaDeLuz from "../img/aguaDeLuz.png";
-import todo from "../img/todolist.png";
+import Vmarine from "../img/Screenshot from 2019-10-18 20-46-48.png";
+import aguaDeLuz from "../img/Screenshot from 2019-10-18 20-49-09.png";
+import todo from "../img/Screenshot from 2019-10-18 21-01-44.png";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>VMarine</h2>
+										<h2>C R I Pumps</h2>
 									</div>
 									<div>
 										<button
@@ -53,7 +53,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>Aguas De Luz</h2>
+										<h2>C R I Pumps 2018</h2>
 									</div>
 									<div>
 										<button
@@ -82,7 +82,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>To Do List</h2>
+										<h2>Marvel Movie Tickets</h2>
 									</div>
 									<div>
 										<button
@@ -115,28 +115,31 @@ export default class Projects extends React.Component {
 							<img src={Vmarine} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Vmarine</h2>
+							<h2>CRI PUMPS</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype marine web-application to
-										provide information about progress of
-										services and prices.
+										Prototype for The responsive static page for creating invitation 
 									</li>
 									<li>
-										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, Wordpress, and ReactJS.
+										Designed with Bootstrap,
+										css3 and ReactJS.
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
 								<h4>Comming Soon!</h4>
+								<a
+									href="https://dazzling-babbage-93eeff.netlify.com"
+									target="_blank">
+									<h3>View live demo</h3>
+								</a>
 								<p
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
+										fontWeight: 600,
+										fontSize: 0.7 + "rem",
 										cursor: "pointer"
 									}}
 									onClick={() => {
@@ -160,24 +163,21 @@ export default class Projects extends React.Component {
 							<img src={aguaDeLuz} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Agua De Luz</h2>
+							<h2>C R I pumps 2018</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype website to promote health
-										natural-made products to increase brand
-										and online presence.
+										Prototype website to creating static responsive website.
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, Parallax Effect,
-										SmoothScrolling(UI), and VanillaJS.
+										Developed with HTML5, CSS3, Bootstrap and
+										React Js
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
 								<a
-									href="./AguaDeLuz/index.html"
+									href="https://happy-hugle-757c8a.netlify.com"
 									target="_blank">
 									<h3>View live demo</h3>
 								</a>
@@ -185,8 +185,8 @@ export default class Projects extends React.Component {
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
+										fontWeight: 600,
+										fontSize: 0.7 + "rem",
 										cursor: "pointer"
 									}}
 									onClick={() => {
@@ -210,28 +210,28 @@ export default class Projects extends React.Component {
 							<img src={todo} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>Marvel Movie Tickets</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										enema Tickets for Marvel movies
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, and ReactJS.
+										Developed with HTML5, CSS3 and Bootstrap.
+										
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="./todoList/index.html" target="_blank">
+								<a href="https://remittent-certifica.000webhostapp.com/cenema_ticket.html" target="_blank">
 									<h3>View live demo</h3>
 								</a>
 								<p
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
-										fontSize: 2 + "rem",
+										fontWeight: 600,
+										fontSize: 0.7+ "rem",
 										cursor: "pointer"
 									}}
 									onClick={() => {

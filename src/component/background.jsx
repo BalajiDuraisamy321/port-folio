@@ -16,9 +16,7 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						Hello, I&apos;m Frank Izquierdo.
-						<br />
-						I&apos;m a Full Stack Web Developer.
+						Balaji Duraisamy.
 					</h1>
 					{/* offset can be cahnged in node modules wowjs default file */}
 					<button
