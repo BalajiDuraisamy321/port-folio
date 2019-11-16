@@ -49,7 +49,7 @@ export default class About extends React.Component {
 				<div className="row" style={{ marginTop: 7 + "rem" }}>
 					<div className="col-12 col-lg-6 hidden">
 						<img
-							className={"img-fluid " + this.props.fadeIn}
+							className={"img-fluid " + this.props.fadeInLeft}
 							src={myImage}
 							alt=""
 							style={{
@@ -58,7 +58,7 @@ export default class About extends React.Component {
 								width: 250 + "px"
 							}}
 						/>
-						<p className={"mytext pt-3 " + this.props.fadeIn}>
+						<p className={"mytext pt-3 " + this.props.fadeInLeft}>
 							I love to transform ideas into reality using code. I
 							am passionate about using Javascript and animations
 							to create awesome user experiences.
@@ -67,7 +67,7 @@ export default class About extends React.Component {
 					<div
 						className={
 							"col-12 col-sm-12 col-md-12 col-lg-6 " +
-							this.props.tada
+							this.props.fadeInRight
 						}>
 						<div className="progress mb-3">
 							<div
@@ -139,6 +139,16 @@ export default class About extends React.Component {
 								aria-valuemin="0"
 								aria-valuemax="100">
 								JQuery
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 75 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								MongoDB
 							</div>
 						</div>
 					</div>

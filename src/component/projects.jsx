@@ -13,14 +13,14 @@ export default class Projects extends React.Component {
 					<div className=" project-container container bg-light pb-5">
 						<h1
 							id="projects"
-							className={"text-center " + this.props.fadeInRight}>
+							className={"text-center " + this.props.fadeIn}>
 							Projects
 						</h1>
 						<div className="row my-5">
 							<div
 								className={
 									"testbg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
+									this.props.fadeInRight
 								}>
 								<div className="overlay">
 									<div className="text">
@@ -78,7 +78,7 @@ export default class Projects extends React.Component {
 							<div
 								className={
 									"todobg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
+									this.props.fadeInRight
 								}>
 								<div className="overlay">
 									<div className="text">
@@ -214,10 +214,10 @@ export default class Projects extends React.Component {
 							<div className="modal-description">
 								<ul>
 									<li>
-										enema Tickets for Marvel movies
+										Cenema Tickets for Marvel movies
 									</li>
 									<li>
-										Developed with HTML5, CSS3 and Bootstrap.
+										Developed with HTML5, CSS3, JavaScript and Bootstrap.
 										
 									</li>
 								</ul>
